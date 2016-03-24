@@ -180,6 +180,7 @@ elasticsearch
 
 *~
 
+.idea
 kibana/
 elasticsearch
 logs/

@@ -19,6 +19,8 @@ elasticsearch::instance { 'es-01':
   'index.number_of_replicas' => '0',
   'index.number_of_shards'   => '1',
   'network.host' => '0.0.0.0',
+  'http.cors.allow-origin' => "/.*/",
+  'http.cors.enabled' => true,
   'marvel.agent.enabled' => false #DISABLE marvel data collection. 
   },        # Configuration hash
   init_defaults => { }, # Init defaults hash
