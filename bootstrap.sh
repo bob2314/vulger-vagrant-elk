@@ -40,6 +40,11 @@ sudo bin/plugin install royrusso/elasticsearch-HQ
 sudo apt-get install build-essential autoconf flex bison libtool python-dev -y
 
 
+# Test the install
+# This command will echo some JSON to the console
+curl http://127.0.0.1:9200/
+
+
 ## Mongo
 #sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 #echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
